@@ -8,8 +8,6 @@ html, body {
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
-#hoofdtitel { font-family:"copperplate"}
-
 
 main {
     margin: 0 auto;
@@ -40,6 +38,15 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+}
+
+ul {
+
+
+}
+#hoofdtitel {
+  font-size: 50px;
+  text-align: center;
 }
 
 .smalltext {
