@@ -1,12 +1,17 @@
+/* Debug layout */
+
+
+
+
 /* Basislayout */
 
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
+    background-color: #ffffff;  
+  
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    
 }
 
 main {
@@ -20,11 +25,6 @@ article {
     text-align: justify;
 }
 
-
-header {
-    color: skyblue;
-    text-align: center;
-}
 
 
 footer {
@@ -54,22 +54,33 @@ ul {
 }
 
 a {
-    color: skyblue;
+    color: #b03c3c;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: ;
 }
 
+/* header */
+
+.knop {
+  padding-left:10px;
+  padding-right:10px;
+  width:fit-content;
+  margin:auto;
+  font-family: 'Cinzel Decorative';
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    width:fit-content;
+    margin:auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #ffffff;
     overflow: hidden;
+    font-family: 'DM Mono'
 }
 
 nav ul li {
@@ -78,19 +89,17 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #808080;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    color: #aaaaaa;
 }
 
-nav li a.active {
-    background-color: skyblue;
-}
+
 
 
 
