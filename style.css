@@ -35,6 +35,12 @@ footer {
 
 /* specifieke stijlen */
 
+.xiv {
+  font-family: 'Cinzel Decorative';
+}
+
+
+
 img.zweefLinks {
     float: left;
     margin-right: 15px;
