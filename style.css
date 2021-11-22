@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #ffffff;  
+    background-image: url();  
   
     color: #303030;
     
@@ -16,7 +16,6 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
     position: relative;
 }
 
@@ -25,6 +24,9 @@ article {
     text-align: justify;
 }
 
+.start-tekst {
+  text-align: center;
+}
 
 
 footer {
@@ -37,6 +39,11 @@ footer {
 
 .xiv {
   font-family: 'Cinzel Decorative';
+}
+
+.afbeelding1 {
+  width: 1950px;
+  height:auto;
 }
 
 
