@@ -8,10 +8,20 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image: url();  
+    background-image: url("https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--1917_High_Jewelry_Savoir_Faire_DI1.jpg?wid={IMG_WIDTH}&hei={IMG_HEIGHT}");
+ background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1980px 990px;
+  
   
     color: #303030;
     
+}
+
+background-image {
+  opacity: 0.5;
 }
 
 main {
