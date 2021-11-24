@@ -1,7 +1,8 @@
-/* Debug layout */
-
-
-
+*{
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0px;
+}
 
 /* Basislayout */
 
