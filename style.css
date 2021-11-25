@@ -23,11 +23,23 @@ background-color: white;
 
 }
 
-.picture1 {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+
+.hphorloge {
+  height: 350px;
+  width:auto;
+  float: left;
+}
+
+.hpketting {
+  height: 350px;
+  width: auto;
+  float: left;
+}
+
+.hpsale {
+  height: 350px;
+  width: auto;
+  float: left;
 }
 
 background-image {
