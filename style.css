@@ -4,6 +4,12 @@
   margin: 0px;
 }
 
+img {
+  border: 2px solid red;
+}
+div {
+  border: 2px solid green;
+}
 /* Basislayout */
 
 html, body {
@@ -24,22 +30,18 @@ background-color: white;
 }
 
 
-.hphorloge {
+.column {
   height: 350px;
-  width:auto;
+  width:33.3333%;
   float: left;
+  padding: 20px;
 }
 
-.hpketting {
-  height: 350px;
-  width: auto;
-  float: left;
-}
 
-.hpsale {
-  height: 350px;
-  width: auto;
-  float: left;
+
+
+img {
+  width: 100%;
 }
 
 background-image {
