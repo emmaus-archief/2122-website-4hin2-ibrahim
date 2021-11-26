@@ -5,6 +5,7 @@
 }
 
 img {
+/*  border-radius: 10px; */
   border: 2px solid red;
 }
 div {
@@ -14,8 +15,8 @@ div {
 
 html, body {
     height: 100%;
-    padding: 0;
-    margin: 0px;
+    padding: 0px;
+    margin:  0px;
     color: #303030;
     
 }
@@ -29,17 +30,53 @@ background-color: white;
 
 
 .column {
-  height: fit-content;
-  width:33.3333%;
+  height: 100%;
+  width: calc(100% / 3);
   float: left;
-  padding: 30px;
+  padding: 35px;
+  
+}
 
+.hptekst-sieraden {
+  text-align: center;
+  font-family: 'Cinzel Decorative';
+}
+
+.hptekst-sale {
+  text-align: center;
+  font-family: 'Cinzel Decorative';
+
+}
+
+.hptekst-horloges {
+  text-align: center;
+  font-family: 'Cinzel Decorative';
+}
+
+.divhp-sieraden {
+  background-color: white;
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+}
+
+.divhp-sale {
+  background-color: white;
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+}
+
+.divhp-horloges {
+  background-color: white;
+   margin: auto;
+   width: 50%;
+   padding: 10px;
 }
 
 .grote-foto {
+  padding-bottom: 10px;
 }
-
-
 
 img {
   width: 100%;
@@ -50,7 +87,7 @@ background-image {
 }
 
 main {
-  width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     position: relative;
 }
