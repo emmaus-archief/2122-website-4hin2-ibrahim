@@ -24,19 +24,20 @@ body {
 
 }
 html {
-
 background-color: white;
-
 }
 
 
 .column {
-  height: 350px;
+  height: fit-content;
   width:33.3333%;
   float: left;
-  padding: 20px;
+  padding: 30px;
+
 }
 
+.grote-foto {
+}
 
 
 
@@ -49,6 +50,7 @@ background-image {
 }
 
 main {
+  width: 1000px;
     margin: 0 auto;
     position: relative;
 }
@@ -75,17 +77,10 @@ footer {
   font-family: 'Cinzel Decorative';
 }
 
-.afbeelding1 {
-  width: 1950px;
-  height:auto;
-}
 
 
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
+
 
 ul {
 
