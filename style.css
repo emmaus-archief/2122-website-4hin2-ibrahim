@@ -75,9 +75,8 @@ background-color: white;
 }
 
 .grote-foto {
-  padding-bottom: 10px;
+  background-image: url('afbeeldingen/Zilver_Zoet-Homepage_slider_ketting_X_wereldbol_munt_ringen_1600x.jpeg');
 }
-
 img {
   width: 100%;
 }
