@@ -52,7 +52,7 @@ background-color: white;
   padding-top: 20px;
 }
 
-.hptekst-sieraden {
+.hptekst-ketting {
   text-align: center;
   font-family: 'Cinzel Decorative';
 }
@@ -68,7 +68,7 @@ background-color: white;
   font-family: 'Cinzel Decorative';
 }
 
-.divhp-sieraden {
+.divhp-ketting {
   background-color: white;
    margin: auto;
    width: 50%;
@@ -92,9 +92,14 @@ background-color: white;
 .grote-foto {
   background-image: url('afbeeldingen/Zilver_Zoet-Homepage_slider_ketting_X_wereldbol_munt_ringen_1600x.jpeg');
   background-repeat: no-repeat;
-  background-size: contain, cover;
-  height: 595px; 
+  background-size: cover;
+  height: 600px; 
   padding-bottom: 0%; 
+  
+}
+
+.Htekst {
+  text-align: center;
 }
 img {
   width: 100%;
@@ -119,6 +124,12 @@ article {
   text-align: center;
 }
 
+.itekstgroot {
+  height: 400px;
+  font-size: 75px;
+  vertical-align: text-bottom;
+
+}
 
 footer {
     text-align: center;
