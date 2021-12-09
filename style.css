@@ -6,10 +6,10 @@
 
 img {
 /*  border-radius: 10px; */
-  border: 2px solid red;
+  
 }
 div {
-  border: 2px solid green;
+
 }
 /* Basislayout */
 
@@ -90,16 +90,19 @@ background-color: white;
 }
 
 .grote-foto {
-  background-image: url('afbeeldingen/Zilver_Zoet-Homepage_slider_ketting_X_wereldbol_munt_ringen_1600x.jpeg');
+  background-image: url('afbeeldingen/louis-vuitton--1917_High_Jewelry_Savoir_Faire_DI3.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px; 
   padding-bottom: 0%; 
+  border: 2px solid white;
+  border-radius: 10px;
   
 }
 
 .Htekst {
   text-align: center;
+  font-family: Allerta Stencil;
 }
 img {
   width: 100%;
@@ -128,7 +131,8 @@ article {
   height: 400px;
   font-size: 75px;
   vertical-align: text-bottom;
-
+  position: relative;
+  
 }
 
 footer {
