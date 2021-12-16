@@ -135,6 +135,14 @@ article {
   
 }
 
+.Herbtekst {
+  text-align: center;
+}
+.Brinplaatje1 {
+  float: left;
+  width: 400px;
+}
+
 footer {
     text-align: center;
     padding-bottom: 10px;
