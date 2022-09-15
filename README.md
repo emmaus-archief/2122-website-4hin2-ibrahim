@@ -13,14 +13,14 @@ Geef aan met [x] welke onderdelen af zijn
 ### Basisstappen
 
 Stap 1: Start 
-- [juwelier] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
-- [x] Je hebt een account aangemaakt op www.github.com
-- [x] Je hebt de voorbeeld website van de docent gekopieerd naar je eigen github account en het werkt. 
+- [ ] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
+- [ ] Je hebt een account aangemaakt op www.github.com
+- [ ] Je hebt de voorbeeld website van de docent gekopieerd naar je eigen github account en het werkt. 
 
 Stap 2: Bestandsstructuur opzetten 
-- [x] Je hebt bepaald wat je op de hoofdpagina en de subpagina’s (minimaal 4) wilt laten zien.
-- [x] Je maakt een html-bestand voor alle pagina’s. De titel en het menu staan erop, maar de inhoud nog niet. 
-- [x] Je hebt een werkend menu waarmee je naar de verschillende pagina’s kunt gaan, de layout kun je later nog aanpassen en mooi maken. 
+- [ ] Je hebt bepaald wat je op de hoofdpagina en de subpagina’s (minimaal 4) wilt laten zien.
+- [ ] Je maakt een html-bestand voor alle pagina’s. De titel en het menu staan erop, maar de inhoud nog niet. 
+- [ ] Je hebt een werkend menu waarmee je naar de verschillende pagina’s kunt gaan, de layout kun je later nog aanpassen en mooi maken. 
 
 Stap 3: Lay-out 
 - [ ] Je hebt de lay-out (welk onderdeel komt waar op het scherm) van je pagina’s gekozen. Het is handig om voor al je pagina’s dezelfde lay-out te gebruiken. 

@@ -1,140 +1,18 @@
-*{
-  box-sizing: border-box;
-  overflow: auto;
-  margin: 0px;
-}
-
-img {
-/*  border-radius: 10px; */
-  
-}
-div {
-
-}
 /* Basislayout */
 
 html, body {
     height: 100%;
-    padding: 0px;
-    margin:  0px;
-    color: #303030;
+    padding: 0;
+    background-color: #EEEEEE;  
     
-}
-body {
-  background-color:rgba(255,255,255,75%);
-
-}
-html {
-background-color: white;
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
 }
 
-.foottext {
-  font-family: 'IBM Plex mono';
-}
-
-
-.column {
-  height: 100%;
-  width: calc(100% / 3);
-  float: left;
-  padding: 35px;
-  
-}
-
-.sphtekst {
-  font-size: 35px; 
-  text-align: center;
-}
-
-.sphtekst2 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.sphmotto {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.hptekst-ketting {
-  text-align: center;
-  font-family: 'Cinzel Decorative';
-}
-
-.hptekst-sale {
-  text-align: center;
-  font-family: 'Cinzel Decorative';
-
-}
-
-.hptekst-horloges {
-  text-align: center;
-  font-family: 'Cinzel Decorative';
-}
-
-.divhp-ketting {
-  background-color: white;
-   margin: auto;
-   width: 50%;
-   padding: 10px;
-}
-
-.divhp-sale {
-  background-color: white;
-   margin: auto;
-   width: 50%;
-   padding: 10px;
-}
-
-.divhp-horloges {
-  background-color: white;
-   margin: auto;
-   width: 50%;
-   padding: 10px;
-}
-
-.grote-foto {
-  background-image: url('afbeeldingen/louis-vuitton--1917_High_Jewelry_Savoir_Faire_DI3.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px; 
-  padding-bottom: 0%; 
-  border: 2px solid white;
-  border-radius: 10px;
-  
-}
-
-.grasbestelknop {
-  border: 2px solid white;
-  border-radius: 200px;
-  background-color: rgb(158, 41, 41);
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.grasbestelknop:hover {
-  opacity: 1}
-
-.Htekst {
-  text-align: center;
-  font-family: Allerta Stencil;
-}
-img {
-  width: 100%;
-}
-
-background-image {
-  opacity: 0.5;
-}
 
 main {
-    width: 1000px;
     margin: 0 auto;
+    width: 700px;
     position: relative;
 }
 
@@ -143,39 +21,12 @@ article {
     text-align: justify;
 }
 
-.start-tekst {
-  text-align: center;
+
+header {
+    color: skyblue;
+    text-align: center;
 }
 
-.itekstgroot {
-  height: 400px;
-  font-size: 75px;
-  vertical-align: text-bottom;
-  position: relative;
-  
-}
-
-.Herbtekst {
-  text-align: center;
-  overflow: hidden;
-}
-
-.Titelhorloge {
-  text-align: center;
-  overflow: hidden;
-  font-family: 'Allerta Stencil';
-}
-
-.Horlogemotto {
-  text-align: center;
-  overflow: hidden;
-  font-family: 'Montserrat Alternates';
-}
-
-.Brinplaatje1 {
-  float: left;
-  width: 400px;
-}
 
 footer {
     text-align: center;
@@ -185,22 +36,9 @@ footer {
 
 /* specifieke stijlen */
 
-.xiv {
-  font-family: 'Cinzel Decorative';
-}
-
-
-
-
-
-
-ul {
-
-
-}
-#hoofdtitel {
-  font-size: 50px;
-  text-align: center;
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
 }
 
 .smalltext {
@@ -208,32 +46,22 @@ ul {
 }
 
 a {
-    color: #000000;
+    color: skyblue;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-/* header */
-
-.knop {
-  padding-left:10px;
-  padding-right:10px;
-  width:fit-content;
-  margin:auto;
-  font-family: 'Cinzel Decorative';
-}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    width:fit-content;
-    margin:auto;
+    margin: auto;
     padding: 0;
+    background-color: #dddddd;
     overflow: hidden;
-    font-family: 'DM Mono'
 }
 
 nav ul li {
@@ -242,17 +70,19 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: #aaaaaa;
+    background-color: #aaaaaa;
 }
 
-
+nav li a.active {
+    background-color: skyblue;
+}
 
 
 
